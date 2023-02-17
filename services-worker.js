@@ -1,9 +1,12 @@
+const GHPATH = '/daisy-pwa';
+
 const staticCashName = 's-app-v3'
 
 const assetUrls = [
-  './index.html',
-  './css/style.css',
-  './js/swiper.js',
+  `${GHPATH}/`,
+  `${GHPATH}/index.html`,
+  `${GHPATH}/css/style.css`,
+  `${GHPATH}/js/swiper.js`,
 ]
 
 self.addEventListener('install', async event => {
