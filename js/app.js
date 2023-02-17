@@ -1,18 +1,3 @@
-// window.addEventListener('load', async () => {
-
-//   if (navigator.serviceWorker) {
-//     try {
-//       const reg = await navigator.serviceWorker.register('/daisy-pwa//services-worker.js', {scope: '/daisy-pwa/'})
-//       console.log('Service worker register succcess', reg)
-//     } catch (e) {
-//       console.log('Service worker register fail')
-//     }
-//   }
-
-// })
-
-
-
 // controll sliderSwiper start
 try {
   const tabsList = document.querySelectorAll('.tabs__list');
