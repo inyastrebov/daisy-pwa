@@ -5,7 +5,7 @@
   "background_color": "#2196f3",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/daisy-pwa/-pwa/",
+  "scope": "/daisy-pwa/",
   "start_url": "/daisy-pwa/",
   "icons": [
     {
