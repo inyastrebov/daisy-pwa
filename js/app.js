@@ -1,15 +1,15 @@
-window.addEventListener('load', async () => {
+// window.addEventListener('load', async () => {
 
-  if (navigator.serviceWorker) {
-    try {
-      const reg = await navigator.serviceWorker.register('/daisy-pwa//services-worker.js', {scope: '/daisy-pwa/'})
-      console.log('Service worker register succcess', reg)
-    } catch (e) {
-      console.log('Service worker register fail')
-    }
-  }
+//   if (navigator.serviceWorker) {
+//     try {
+//       const reg = await navigator.serviceWorker.register('/daisy-pwa//services-worker.js', {scope: '/daisy-pwa/'})
+//       console.log('Service worker register succcess', reg)
+//     } catch (e) {
+//       console.log('Service worker register fail')
+//     }
+//   }
 
-})
+// })
 
 
 
